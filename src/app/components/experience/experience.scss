@@ -4,6 +4,54 @@
   align-items: center;
   gap: 24px;
   grid-area: experience;
+
+  .experience-unit {
+    width: 300px;
+    border-radius: 24px;
+    border: 1px solid var(--text-secondary);
+    height: 30px;
+  }
+  .componenteImagem {
+    display: flex;
+    gap: 24px;
+  }
+  .experience-time {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .experience-measure {
+    &-1 {
+      width: 33%;
+      border-radius: 24px;
+      height: 30px;
+      background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--text-primary);
+    }
+    &-2 {
+      width: 66%;
+      border-radius: 24px;
+      height: 30px;
+      background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--text-primary);
+    }
+    &-3 {
+      width: 100%;
+      border-radius: 24px;
+      height: 30px;
+      background: linear-gradient(90deg, #777cf4 2.62%, #f47777 93.38%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--text-primary);
+    }
+  }
   p {
     font-weight: 300;
     font-size: 18px;
