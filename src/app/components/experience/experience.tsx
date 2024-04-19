@@ -7,8 +7,8 @@ export function Experience() {
     <div className="experience">
       <SectionTitle text="Experience"></SectionTitle>
       <p>
-        3 years working as a Software Developer, in companys such as Itaú, Stone
-        and Aftersale.
+        3 years working as a Software Developer, in companys such as
+        Rendimento/Pay, BrasilCard and A2W.
       </p>
       <div className="experience-time"></div>
     </div>

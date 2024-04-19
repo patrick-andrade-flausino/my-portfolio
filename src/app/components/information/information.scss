@@ -1,0 +1,25 @@
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 24px;
+  max-width: 500px;
+  grid-area: info;
+  .languages-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .bandeira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  span {
+    color: var(--text-secondary);
+  }
+}
