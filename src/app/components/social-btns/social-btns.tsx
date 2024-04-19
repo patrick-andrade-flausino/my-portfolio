@@ -1,45 +1,25 @@
 import Image from "next/image";
 
 import "./social.btns.scss";
+import GithubIcon from "../icons/github";
+import TwitterIcon from "../icons/twitter";
+import LinkedinIcon from "../icons/linkedin";
+import InstagramIcon from "../icons/instagram";
 
 export default function SocialButtons() {
   return (
     <div className="social">
       <a href="https://www.instagram.com/andradeepatrick/">
-        <Image
-          src="/instagram.png"
-          alt="icone email de contato"
-          width={20}
-          height={20}
-          priority
-        />
+        <InstagramIcon />
       </a>
       <a href="https://www.linkedin.com/in/patrick-de-andrade-flausino/">
-        <Image
-          src="/linkedin.png"
-          alt="icone email de contato"
-          width={20}
-          height={20}
-          priority
-        />
+        <LinkedinIcon />
       </a>
       <a href="https://github.com/patrick-andrade-flausino">
-        <Image
-          src="/github.png"
-          alt="icone email de contato"
-          width={20}
-          height={20}
-          priority
-        />
+        <GithubIcon />
       </a>
       <a href="#">
-        <Image
-          src="/twitter.png"
-          alt="icone email de contato"
-          width={20}
-          height={20}
-          priority
-        />
+        <TwitterIcon />
       </a>
     </div>
   );

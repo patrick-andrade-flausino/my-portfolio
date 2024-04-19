@@ -25,7 +25,7 @@ export function Information() {
             width={24}
             height={24}
             priority
-          />{" "}
+          />
           PT-BR - Native Speaker
         </span>
       </div>
